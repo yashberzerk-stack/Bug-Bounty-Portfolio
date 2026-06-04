@@ -18,7 +18,6 @@ def clean_words(lines):
             if(cleaned_line.startswith('#')):
                 continue
             set_cleanWords.add(cleaned_line)
-            clean_words+=1
 
         return set_cleanWords, raw_word
             
